@@ -98,7 +98,6 @@ hr {
   .title {
     font-weight: bold;
     font-size: 20px;
-    color: #db3a34;
   }
   
   .bar {
@@ -132,6 +131,12 @@ hr {
   }
 
   /* FORMATION */
+
+  .text-icon {
+    list-style: none;
+    font-size: 40px;
+  }
+  
   .timeline {
     list-style: none;
     padding: 20px 0 20px;
@@ -258,3 +263,16 @@ hr {
   .timeline-body > p + p {
     margin-top: 5px;
   }
+
+  /********************* Portfolio ************************/
+  /* small adjusts, don't necessaries to functioning this filter, this is something visual */
+.btn {
+  margin-bottom:3px;
+}
+.btn:hover{
+  cursor:pointer;
+}
+.btn-outline-primary:focus {
+  background-color:#007bff;
+  color:#fff;
+}

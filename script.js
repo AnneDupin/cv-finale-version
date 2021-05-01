@@ -19,3 +19,6 @@ $(".bar").each(function(){
       width: $(this).attr("data-width")
     },2000)
   });
+
+
+  // Portfolio

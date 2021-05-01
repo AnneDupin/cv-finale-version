@@ -1,0 +1,21 @@
+@media(max-width: 500px) {
+    .burger {
+        display: block;
+    }
+.symbole {
+    position: fixed;
+    top: 0;
+}
+nav ul {
+    max-height: 0px;
+    background: #000;
+}
+.menu {
+    max-height: 20em;
+}
+nav ul i {
+    width: 100%;
+    padding: 24px 0;
+}
+}
+

@@ -1,0 +1,64 @@
+/* Polices */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Montserrat:wght@300&display=swap');
+
+/* Général */
+header {
+    width: 100%;
+    height: 100vh; /* img prend 100% de l'écran */
+    background: url('../assets/Img/banner-img.jpg') no-repeat 50% 50%;
+    background-size: cover;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+}
+
+nav ul {
+    padding: 0;
+    text-align: center;
+    margin: 0;
+    transition: 1s;
+    overflow: hidden;
+}
+nav ul li {
+    display: inline-block;
+    padding: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+
+.symbole {
+    position: fixed;
+    float: left;
+    margin: 16px 36px;
+    font-weight: bold;
+    font-size: 24px;
+    font-family: 'Permanent marker', Arial, sans-serif;
+    color: whitesmoke;
+}
+
+nav.scroll ul {
+    background: #000;
+}
+
+/*******************Menu Burger *************************/
+.burger {
+    display: none;
+    color: #fff;
+    background: #000;
+    width: 100%;
+    box-sizing: border-box;
+    cursor: pointer;
+    text-align: right;
+    padding: 15px 24px;
+}
+
+/********************** fin Menu Burger**********************/
